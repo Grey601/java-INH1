@@ -5,7 +5,7 @@ import ru.netology.repository.Repository;
 public class ProductManager {
     private Repository repo;
 
-    public ProductManager(Repository repo) {
+    protected ProductManager(Repository repo) {
         this.repo = repo;
     }
 
