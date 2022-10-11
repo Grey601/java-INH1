@@ -14,6 +14,7 @@ public class Repository {
         tmp[tmp.length - 1] = item;
         products = tmp;
     }
+
     public void removeById(int id) {
         Product[] tmp = new Product[products.length - 1];
         int copyToIndex = 0;
@@ -25,6 +26,7 @@ public class Repository {
         }
         products = tmp;
     }
+
     public Product[] getItems() {
         return products;
     }
