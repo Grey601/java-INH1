@@ -10,11 +10,11 @@ public class ProductManagerTest {
     Repository repo = new Repository();
     ProductManager manager = new ProductManager(repo);
 
-    Book book1 = new Book(1, "Война и Мир", 1600, "Толстой" );
-    Book book2 = new Book(2, "Скотный двор", 1000, "Оруэлл" );
-    Book book3 = new Book(3, "1984", 2900, "Оруэлл" );
-    Smartphone phone1 = new Smartphone(4, "iPhone13", 60_000, "Apple" );
-    Smartphone phone2 = new Smartphone(5, "Samsung Galaxy S22", 55_000, "Samsung" );
+    Book book1 = new Book(1, "Война и Мир", 1600, "Толстой");
+    Book book2 = new Book(2, "Скотный двор", 1000, "Оруэлл");
+    Book book3 = new Book(3, "1984", 2900, "Оруэлл");
+    Smartphone phone1 = new Smartphone(4, "iPhone13", 60_000, "Apple");
+    Smartphone phone2 = new Smartphone(5, "Samsung Galaxy S22", 55_000, "Samsung");
     Book book4 = new Book(6, "Бумажный дворец", 1300, "Коули Хеллер");
 
     @BeforeEach
